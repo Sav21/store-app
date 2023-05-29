@@ -5,7 +5,6 @@ const CustomerInfo = ({ customer, index }) => {
 
   return (
     <div>
-      <Heading />
       <div>First Name: {customerInfo.firstName}</div>
       <div>Last Name: {customerInfo.lastName}</div>
       <div>ID: {customerInfo.id}</div>

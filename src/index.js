@@ -9,11 +9,13 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
+import Heading from "./components/Heading";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
+    <Heading />
       <App />
     </BrowserRouter>
   </React.StrictMode>

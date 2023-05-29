@@ -1,9 +1,8 @@
-import Heading from "../components/Heading";
 const Welcome = () => {
   return (
     <div>
-      <Heading />
-      <h3>Welcome</h3>
+
+      <h3 class="h1 container mt-5">Welcome</h3>
     </div>
   );
 };

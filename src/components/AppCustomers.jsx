@@ -60,7 +60,6 @@ const AppCustomers = () => {
 
   return (
     <div>
-      <Heading />
       <Table striped bordered hover size="sm">
         <thead>
           <tr>
